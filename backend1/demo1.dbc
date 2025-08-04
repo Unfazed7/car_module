@@ -1,0 +1,67 @@
+BO_ 900 STATUS_CCAN3: 8 BCM
+ SG_ ACPressure : 13|9@0+ (0.1,0) [0|40] "bar"  ACM,MCM
+ SG_ ACPressureFailSts : 20|1@0+ (1,0) [0|1] ""  ACM,MCM
+ SG_ AlternatorFail : 57|1@0+ (1,0) [0|1] ""  ACM,MCM
+ SG_ CompressorSts : 18|2@0+ (1,0) [0|3] ""  ACM,SGW,MCM
+ SG_ EngineSts : 49|2@0+ (1,0) [0|3] ""  ACM,AMP,LBSS,SGW,MCM,RBSS,TTM,VTM
+ SG_ EngineWaterTemp : 7|8@0+ (1,-40) [-40|215] "°C"  ACM,SGW,MCM
+ SG_ EngineWaterTempFailSts : 15|1@0+ (1,0) [0|1] "-"  ACM,SGW,MCM
+ SG_ ShiftModeSts : 59|1@0+ (1,0) [0|1] ""  SGW
+ SG_ VehicleSpeedVSOSig : 47|13@0+ (0.0625,0) [0|511.9375] "Km/h"  ACM,AMP,LBSS,SGW,MCM,RBSS,TTM,VTM
+ SG_ VehicleSpeedVSOSig_UB : 50|1@0+ (1,0) [0|1] ""  VTM
+ SG_ VehicleSpeedVSOSigFailSts : 32|1@0+ (1,0) [0|1] ""  ACM,AMP,LBSS,SGW,MCM,RBSS,TTM,VTM
+ SG_ VehicleSpeedVSOSigFailSts_UB : 60|1@0+ (1,0) [0|1] ""  VTM
+
+ 
+BO_ 800 STATUS_BH_BCM1: 8 BCM
+ SG_ AlarmSysTurnOn : 49|5@0+ (1,0) [0|31] "-"  Vector__XXX
+ SG_ AutoCloseSts : 60|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ AutoOpenSts : 59|1@0+ (1,0) [0|1] ""  Vector__XXX
+ SG_ BrakeFluidLevelSts : 25|1@0+ (1,0) [0|1] "-"  SGW
+ SG_ BrakePedalSwitchNOSts : 36|1@0+ (1,0) [0|1] "-"  SGW
+ SG_ DriverDoorSts : 31|1@0+ (1,0) [0|1] "-"  ACM,IPC,SGW,MCM
+ SG_ FrontWiperMoveSts : 42|1@0+ (1,0) [0|1] ""  ACM,MCM
+ SG_ FuelLevel : 7|8@0+ (1,0) [0|255] "%"  SGW
+ SG_ FuelLevelFailSts : 15|1@0+ (1,0) [0|1] "-"  SGW
+ SG_ IMMOCodeWarningLightSts : 14|7@0+ (1,0) [0|18] "-"  IPC
+ SG_ LHRDoorSts : 29|1@0+ (1,0) [0|1] "-"  ACM,IPC,MCM
+ SG_ LowFuelWarningSts : 39|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ NightAndDaySensorFailSts : 33|1@0+ (1,0) [0|1] ""  IPC
+ SG_ OperationalModeSts : 23|4@0+ (1,0) [0|15] ""  ACM,AMP,LBSS,SGW,MCM,RBSS,TTM,VTM
+ SG_ ParkBrakeSts : 24|1@0+ (1,0) [0|1] "-"  LBSS,RBSS
+ SG_ PowerModeSts : 19|2@0+ (1,0) [0|3] ""  ACM,AMP,SGW,MCM
+ SG_ PsngrDoorSts : 30|1@0+ (1,0) [0|1] "-"  ACM,IPC,SGW,MCM
+ SG_ RainSensorFailSts : 38|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ RHatchSts : 35|1@0+ (1,0) [0|1] "-"  ACM,IPC,SGW,MCM
+ SG_ RHRDoorSts : 28|1@0+ (1,0) [0|1] "-"  ACM,IPC,MCM
+ SG_ StopStartActivationSts : 32|2@0+ (1,0) [0|3] ""  IPC
+ SG_ StopStartVisualizationCode : 46|3@0+ (1,0) [0|7] ""  IPC
+ SG_ SysEOLSts : 34|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ WarningKeyInSts : 37|1@0+ (1,0) [0|1] ""  IPC
+ 
+ BO_ 700 EXTERNAL_LIGHTS: 4 BCM
+ SG_ AHBFeature : 19|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ AlertLightsON : 31|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ DRLFault : 6|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ FHeatedWindowSts : 5|1@0+ (1,0) [0|1] "-"  ACM,MCM
+ SG_ FrontFogLightSts : 4|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ HeatedMirrorSts : 3|1@0+ (1,0) [0|1] "-"  Vector__XXX
+ SG_ HighBeamSts : 2|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ L_TurnLightActivationSts : 17|1@0+ (1,0) [0|1] "-"  TTM
+ SG_ LHParkingLightSts : 1|1@0+ (1,0) [0|1] "-"  IPC,TTM
+ SG_ LHTurnLightFault : 0|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ LHTurnSignalSts : 15|1@0+ (1,0) [0|1] "-"  IPC,TTM
+ SG_ LowBeamSts : 14|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ ParkingLightFault : 13|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ PlateLightFault : 12|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ R_TurnLightActivationSts : 16|1@0+ (1,0) [0|1] "-"  TTM
+ SG_ RearFogLightFault : 11|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ RearFogLightSts : 10|1@0+ (1,0) [0|1] "-"  IPC,TTM
+ SG_ ReverseGearLightFault : 9|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ RHeatedWindowSts : 8|1@0+ (1,0) [0|1] "-"  ACM,MCM
+ SG_ RHParkingLightSts : 23|1@0+ (1,0) [0|1] "-"  IPC,TTM
+ SG_ RHTurnLightFault : 22|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ RHTurnSignalSts : 21|1@0+ (1,0) [0|1] "-"  IPC,TTM
+ SG_ StopLightFault : 20|1@0+ (1,0) [0|1] "-"  IPC
+ SG_ StopLightSts : 18|1@0+ (1,0) [0|1] "-"  TTM
+ SG_ BonnetSts : 26|1@0+ (1,0) [0|1] "-"  IPC
